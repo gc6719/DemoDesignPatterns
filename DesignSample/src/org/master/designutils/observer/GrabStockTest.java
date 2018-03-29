@@ -35,7 +35,7 @@ public class GrabStockTest {
 		new Thread(getGOOG).start();
 		
 		*/
-		
+		// WORKING WITH JAVA8 LAMBDA EXPRESSION
 		TestValues getIBM =	  new	TestValues(2, "IBM", 672.5, subject , (s) -> s.equals("IBM"));
 		TestValues getAAP = new TestValues(2, "AAP", 192.5, subject,(s) -> s.equals("AAP"));
 		TestValues getGOOG = new TestValues(2, "GOOG", 696.5, subject,(s) -> s.equals("GOOG"));
