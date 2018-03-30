@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 import java.util.stream.IntStream;
 
 public class GrabStockTest {
-
+	
 	public static void main(String[] args) {
 		StockGrabber subject = new StockGrabber();
 		/*MasterObserver observer1 = new StockObserver(subject);
