@@ -1,4 +1,10 @@
-package org.master.designutils.decorator.pizzasample;
+package org.master.designutils.decorator;
+
+import org.master.designutils.decorator.pizzasample.Cheese;
+import org.master.designutils.decorator.pizzasample.Onions;
+import org.master.designutils.decorator.pizzasample.PanPizza;
+import org.master.designutils.decorator.pizzasample.Pizza;
+import org.master.designutils.decorator.pizzasample.Tomatoes;
 
 public class DecoratorPatternTest {
 
