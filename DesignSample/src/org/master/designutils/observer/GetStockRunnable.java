@@ -4,14 +4,14 @@ import java.text.DecimalFormat;
 
 public class GetStockRunnable implements Runnable {
 
-	private int startTime;
+	//private int startTime;
 	private String stock;
 	private double stockPrice;	
 	private StockGrabber sockGrabber ;
 		
-	  GetStockRunnable(int startTime, String stock, double stockPrice,  StockGrabber sockGrabber) 
+	  GetStockRunnable(/*int startTime,*/ String stock, double stockPrice,  StockGrabber sockGrabber) 
 	  {		 
-		this.startTime = startTime;
+		//this.startTime = startTime;
 		this.stock = stock;
 		this.stockPrice = stockPrice;
 		this.sockGrabber = sockGrabber;
